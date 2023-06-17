@@ -1,0 +1,16 @@
+body
+{
+    margin: 0;
+    background-color: aqua;
+}
+h1 
+{
+    text-align: center;
+    font-size: 45px;
+}
+p{
+    width: 50%;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
