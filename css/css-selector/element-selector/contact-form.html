@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='main.js'></script>
+    <style>
+        body 
+        {
+            background-color: lightgray;
+        }
+        h5 
+        {
+            text-align: center;
+            margin-top: 5%;
+            color: gray;
+            letter-spacing: 3px;
+        }
+        h4 
+        {
+            text-align: left;
+            margin-top: 5%;
+            color: gray;
+            letter-spacing: 3px;
+        }
+        .contact-frm 
+        {
+            width: 35%;
+            height: auto;
+            margin: auto;
+            padding: 15px;
+            float: left;
+            margin-left: 22%;
+            background-color: aliceblue;
+        }
+        .map 
+        {
+            width: 25%;
+            height: auto;
+            margin: auto;
+            padding: 0px;
+            float: left;
+            background-color: white;
+        }
+        input
+        {
+            width: 200px;
+            height: auto;
+            padding: 5px;
+        }
+        .text-input
+        {
+            width: 420px;
+            height: auto;
+            padding: 5px;
+
+        }
+
+        .text-btn 
+        {
+            width: 200px;
+            height: auto;
+            padding: 12px;
+            border: none;
+            background-color: blue;
+            color: white;
+        }
+        .clearfix 
+        {
+            clear: both;
+        }
+
+        .fa-facebook,.fa-twitter,.fa-whatsapp,.fa-instagram
+        {
+            width: auto;
+            height: auto;
+            padding: 15px;
+            background-color: blue;
+            color: white;
+            border-radius: 50%;
+            letter-spacing: 0;
+            margin-left: 8%;
+        }
+    </style>
+</head>
+<body>
+
+    <h5>Contact Form #6</h5>
+    <div class="contact-frm">
+        <h4>Contact Form</h4>
+        <form>
+            <label>FirstName *</label>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label>FirstName *</label>
+            <br>
+            <input type="text" name="firstname" placeholder="FirstName *">
+            <input type="text" name="lastname" placeholder="LasttName *">
+            <br><br>
+            <label>Email *</label>
+            <br>
+            <input type="text" name="email" placeholder="Email *" class="text-input">
+            <br><br>
+            <label>Mobile *</label>
+            <br>
+            <input type="text" name="mobile" placeholder="Mobile *" class="text-input">
+            <br><br>
+            <label>Message *</label>
+            <br>
+            <textarea  name="message" placeholder="Message *" class="text-input"></textarea>
+            <br><br>
+            <input type="submit" name="send" value="Send Message" class="text-btn">
+        </form>
+    </div>
+
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.6768121719374!2d70.77229007412227!3d22.290229143262646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca248c77c099%3A0xdf5ac10af64ac8ee!2sTOPS%20Technologies!5e0!3m2!1sen!2sin!4v1687858962409!5m2!1sen!2sin" width="100%" height="427" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  <div class="clearfix"></div>
+    <h3 align="center">
+        <span class="fa fa-facebook"></span>
+        <span class="fa fa-twitter"></span>
+        <span class="fa fa-whatsapp"></span>
+        <span class="fa fa-instagram"></span>
+    </h3>
+</body>
+</html>
