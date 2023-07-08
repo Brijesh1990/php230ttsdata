@@ -1,0 +1,16 @@
+
+  body 
+  {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+  }
+  .content 
+  {
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    background-color: aqua;
+    padding: 25px;
+  }
